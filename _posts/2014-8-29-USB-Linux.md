@@ -11,6 +11,7 @@ The installation proper was done on the 30th of August, 2014, with preparation o
 - - -
 
 On OS X, creating a bootable Linux USB stick should be as simple as running the `dd` command in terminal, writing your downloaded image directly to your stick. While this in itself is already bootable on most ordinary PCs, A Mac will not be able to detect the stick on bootup, and thus will be unable to boot from it (This was tested using the ordinary boot switcher method of holding down the option key. I have not personally attempted this with a custom boot loader such as _rEFInd_.) 
+<!--more-->
 
 After a relatively short search, I stumbled upon a recent post that details the [creation of a Ubuntu Live USB bootable on Macs](http://computers.tutsplus.com/tutorials/how-to-create-a-bootable-ubuntu-usb-drive-for-mac-in-os-x--cms-21253). While this tutorial uses Ubuntu, it should very well apply for any Linux distribution, such as Arch Linux, which I used in mine. Other references I used were the [Arch Wiki](https://wiki.archlinux.org/index.php/USB_Flash_Installation_Media#In_Mac_OS_X) as well as [Cody Littlewood’s dual boot post](http://codylittlewood.com/arch-linux-on-macbook-pro-installation/). Below I detail the exact steps I took which allowed me to successfully create a bootable USB stick. This procedure was both done on and tested with my MacBook Pro 9,2, OS X version 10.9.4.
 
@@ -22,11 +23,11 @@ The next step will be to convert the disk image (which will most likely come as 
 
 where `~/target/path.img` is the path to where and what the `.img` file will be saved as, and `~/source/path.iso` is the path to your disk image. on OS X, you can simply drag and drop the disk image file onto the terminal window to input the file’s path to avoid any errors in text entry. OS X will append the `.dmg` file extension to the end of the target file; changing this file extension is not necessary.
 
-Once this is finished, enter 
+Once this is finished, enter the command 
 
 	diskutil list 
 
-to identify your USB stick. note the device’s properties such as name and size to correctly identify it; you can remove your USB stick, run the command again and note which disk is no longer visible to make sure that you have correctly identified the drive. 
+to identify your USB stick. Note the device’s properties such as name and size to correctly identify it; you can remove your USB stick, run the command again and note which disk is no longer visible to make sure that you have correctly identified the drive. 
 
 Once you’re sure of your device information, take note of the device node; it should be in the format `/dev/diskN`, where `N` is a number assigned to your USB drive. Unmount the drive with the command
 
