@@ -12,4 +12,4 @@ Hopefully I'l have something more substantial to put here soon.
 
 ### Contact me
 
-My twiter profile is linked in the footer. Send me a private message there. I'll put up my email some other time.
+My Twitter profile is linked in the footer. Send me a private message there. I'll put up my email some other time.
