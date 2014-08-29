@@ -43,3 +43,4 @@ The `dd` command should take a few minutes to run and finish; do not attempt to 
 	diskutil eject /dev/diskN
 
 and physically remove the stick after. This should now be bootable on a Mac. On reboot with the USB stick reinserted, hold down the option key before the startup chime and a boot selection menu appears, select the yellow USB icon to boot from it, and proceed with your installation.
+
