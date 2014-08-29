@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            devblog
 tagline:          'Research and notes'
-description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      'This website will cosolidate notes about my research, class work, and life.'
 url:              http://devential.github.io
 baseurl:          '/'
 paginate:         5
