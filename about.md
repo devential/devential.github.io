@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I'll fill this in later.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself. 
+Hopefully I'l have something more substantial to put here soon.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+My twiter profile is linked in the footer. Send me a private message there. I'll put up my email some other time.
