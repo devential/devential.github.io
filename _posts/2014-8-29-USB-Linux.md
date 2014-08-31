@@ -4,14 +4,13 @@ title: Creating a Mac bootable Linux USB stick with OS X
 tags: linux
 ---  
 
+<p class="message">
 In the spirit of proper documentation, I’ve decided to document the entire process of installing Arch Linux in a dual boot setup with OS X on my MacBook Pro. Macs are notably finicky when installing _foreign_ operating systems such as many Linux distributions that aren’t Ubuntu, thus, keeping a proper log on what worked for me would be useful if ever I revisit this situation in the future. The install procedures I use here have been consolidated from many online sources which I’ve picked out through trial-and-error. Links to these references are noted in the appropriate parts. This also should serve as a good consolidated reference for anyone who decides to undertake a similar exercise. 
 
 The installation proper was done on the 30th of August, 2014, with preparation of the installation media done days prior. The latest install image (`archlinux-2014.08.01-dual`) at this time was used; the currently available installation media will have changed at this point. 
-
-- - -
+</p)
 
 On OS X, creating a bootable Linux USB stick should be as simple as running the `dd` command in terminal, writing your downloaded image directly to your stick. While this in itself is already bootable on most ordinary PCs, A Mac will not be able to detect the stick on bootup, and thus will be unable to boot from it (This was tested using the ordinary boot switcher method of holding down the option key. I have not personally attempted this with a custom boot loader such as _rEFInd_.) 
-<!--more-->
 
 After a relatively short search, I stumbled upon a recent post that details the [creation of a Ubuntu Live USB bootable on Macs](http://computers.tutsplus.com/tutorials/how-to-create-a-bootable-ubuntu-usb-drive-for-mac-in-os-x--cms-21253). While this tutorial uses Ubuntu, it should very well apply for any Linux distribution, such as Arch Linux, which I used in mine. Other references I used were the [Arch Wiki](https://wiki.archlinux.org/index.php/USB_Flash_Installation_Media#In_Mac_OS_X) as well as [Cody Littlewood’s dual boot post](http://codylittlewood.com/arch-linux-on-macbook-pro-installation/). Below I detail the exact steps I took which allowed me to successfully create a bootable USB stick. This procedure was both done on and tested with my MacBook Pro 9,2, OS X version 10.9.4.
 
@@ -45,3 +44,4 @@ The `dd` command should take a few minutes to run and finish; do not attempt to 
 
 and physically remove the stick after. This should now be bootable on a Mac. On reboot with the USB stick reinserted, hold down the option key before the startup chime and a boot selection menu appears, select the yellow USB icon to boot from it, and proceed with your installation.
 
+In my case, I continued to install Arch Linux on my MacBook Pro, [noted in the following post](/2014/8/31/Arch-Install).
