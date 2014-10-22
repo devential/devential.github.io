@@ -9,4 +9,4 @@ In the spirit of proper documentation, I’ve decided to document the entire pro
 
 The installation proper was done on the 30th of August, 2014, with preparation of the installation media done days prior. The latest install image (`archlinux-2014.08.01-dual`) at this time was used; the currently available installation media will have changed at this point.
 
-I am currently in the process of setting up my Arch installation. I'll update this page eventually.
+__Update:__ After two months of holding off finishing my setup, I made a pretty grave mistake by blindly updating my OSX partition. the recent OSX Yosemite update has overwritten the grub bootloader (which allowed me to access my Arch Linux install), while the stock Mac bootloader obvioulsy refuses to boot into any foreign partition. As such, I've decided not to continue with this set-up, instead opting to find and use a spare PC for an Arch-only install in the near future. [More details are in the update post.](/2014/10/22/Arch-Install-Update)
