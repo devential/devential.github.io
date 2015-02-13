@@ -1,0 +1,13 @@
+---
+layout: post
+title: Filesystem Compatibility Woes
+tags: OSX, Windows, NTFS
+---  
+
+Earlier in the week I was issued an external hard drive to store and transfer all the data I would ever need for my research endeavors. Indeed, I already have over 70GB worth of reef photos that I’d be processing over the next few weeks. Mainly using OS X as my primary operating system while having to still allow read/write access for the times I’d have access to a Windows workstation (plus keeping up the possibility that I’d be able to work on a linux system again), the question of which filesystem to use on the drive came up. Some words to note: __there is no catch-all solution, no one perfect filesystem that would play well with any of the ‘big 3’ systems without some form of compromise one way or another.__ Any set-up would have to consider the needs of the user, and for my current needs, I’ve chosen to work with a single ExFAT partition on my portable drive, after having considered many other filesystems to work with.
+
+Of course, the primary motivation for choosing a filesystem would be cross-compatibility, or more importantly, native or stable-enough support on both Windows and OS X. Wikipedia provides [a comprehensive list of different file systems and the operating systems that support them](http://en.wikipedia.org/wiki/Comparison_of_file_systems#Supporting_operating_systems). From the list, only three allow completely native support for OS X and Windows, namely ExFAT, FAT32, and UDF. I also considered NTFS because it’s partially supported on OS X being read-only, with writing allowed by NTFS-3G or a proprietary version, a compromise I could afford.
+
+FAT32 was a no-go right from the start. The file-size limits alone are already a deal-breaker, and not even mentioning the other limitations of the n-year old filesystem. exFAT was only a tad better, still carrying over most of the limitations of its predecessor, and the fact that it was mainly designed for smaller portable flash drives isn’t too comforting, but ultimately, it became the filesystem I would settle for. Interoperability out of the box is appealing enough on its own. My practice of keeping multiple redundant backups of my important data should also suffice as a failsafe if ever the worst cases of corruption come along. 
+
+and, what can I say, it works. My dreams of a Btrfs partition (currently only supported in Linux systems) can wait for now.
