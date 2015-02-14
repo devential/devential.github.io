@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Test Map Page
+title: Map Test
 ---
 
 This is a test page for my map implementations. 
