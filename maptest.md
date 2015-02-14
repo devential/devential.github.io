@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: hiddenpage
 title: Map Test
 ---
 

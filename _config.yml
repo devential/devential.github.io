@@ -14,7 +14,7 @@ permalink:        pretty
 
 # Setup
 title:            devblog
-tagline:          'Research and notes'
+tagline:          'research and notes'
 description:      'Cosolidating notes about my research, class work, and life.'
 url:              http://devential.github.io
 baseurl:          '/'
