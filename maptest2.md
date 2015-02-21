@@ -1,6 +1,6 @@
 ---
 layout: hiddenpage
-title: Calagatan Map Test
+title: Calatagan Map Test
 ---
 
 A test implementation of a teardrop tow with a rating visualization. Actual images may be implemented in a future edit.
