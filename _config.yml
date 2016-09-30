@@ -19,7 +19,8 @@ description:      'Cosolidating notes about my research, class work, and life.'
 url:              http://devential.ml
 baseurl:          '/'
 paginate:         5
-paginate_path:    "/blog/"
+paginate_path:    "/blog/page:num"
+paginateurl:    "/blog/"
 
 author:
   name:           'devential'
