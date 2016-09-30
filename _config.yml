@@ -16,7 +16,7 @@ permalink:        pretty
 title:            devential
 tagline:          'research and notes'
 description:      'Cosolidating notes about my research, class work, and life.'
-url:              http://devential.github.io
+url:              http://devential.ml
 baseurl:          '/'
 paginate:         5
 
