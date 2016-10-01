@@ -1,6 +1,7 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      rogue
+pygments: 		  false
 
 #Gems
 gems:
