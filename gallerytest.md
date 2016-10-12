@@ -23,6 +23,8 @@ Sample images used here are public domain photos on Wikimedia Commons.
 
 <script type="text/javascript">
     $(document).ready(function() {
-        $("#lightgallery").lightGallery();
+        $("#lightgallery").lightGallery({
+            thumbnail:true
+            });
     });
 </script>
