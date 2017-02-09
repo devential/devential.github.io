@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/devential
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://devential.ml
+  * I am devential (https://keybase.io/devential) on keybase.
+  * I have a public key ASBpEhejrhTWMvH4z6xIwowtLmlKK0UX4liIE042-FTpEAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120691217a3ae14d632f1f8cfac48c28c2d2e694a2b4517e25888134e36f854e9100a",
+            "host": "keybase.io",
+            "kid": "0120691217a3ae14d632f1f8cfac48c28c2d2e694a2b4517e25888134e36f854e9100a",
+            "uid": "f610f7a3dda011b0e117432c0d4da019",
+            "username": "devential"
+        },
+        "service": {
+            "hostname": "devential.ml",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1486633461,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1486633439,
+        "hash": "5fd59f43d618053b8b1e9e082065a25871eee6d0ad5b616fe310dcc59666e3e85b21e074e7678a098a8cd92aebabf95eb90685e7b251e2b48e41a44a5316d508",
+        "seqno": 855249
+    },
+    "prev": "89dc1f1d62894938a459dadb5926b923d1e8550bcf3f9c884e97fd91a3aaebc8",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgaRIXo64U1jLx+M+sSMKMLS5pSitFF+JYiBNONvhU6RAKp3BheWxvYWTFAvR7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNjkxMjE3YTNhZTE0ZDYzMmYxZjhjZmFjNDhjMjhjMmQyZTY5NGEyYjQ1MTdlMjU4ODgxMzRlMzZmODU0ZTkxMDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNjkxMjE3YTNhZTE0ZDYzMmYxZjhjZmFjNDhjMjhjMmQyZTY5NGEyYjQ1MTdlMjU4ODgxMzRlMzZmODU0ZTkxMDBhIiwidWlkIjoiZjYxMGY3YTNkZGEwMTFiMGUxMTc0MzJjMGQ0ZGEwMTkiLCJ1c2VybmFtZSI6ImRldmVudGlhbCJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiZGV2ZW50aWFsLm1sIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xOCJ9LCJjdGltZSI6MTQ4NjYzMzQ2MSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDg2NjMzNDM5LCJoYXNoIjoiNWZkNTlmNDNkNjE4MDUzYjhiMWU5ZTA4MjA2NWEyNTg3MWVlZTZkMGFkNWI2MTZmZTMxMGRjYzU5NjY2ZTNlODViMjFlMDc0ZTc2NzhhMDk4YThjZDkyYWViYWJmOTVlYjkwNjg1ZTdiMjUxZTJiNDhlNDFhNDRhNTMxNmQ1MDgiLCJzZXFubyI6ODU1MjQ5fSwicHJldiI6Ijg5ZGMxZjFkNjI4OTQ5MzhhNDU5ZGFkYjU5MjZiOTIzZDFlODU1MGJjZjNmOWM4ODRlOTdmZDkxYTNhYWViYzgiLCJzZXFubyI6NiwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEBEkzcj+/tLQShAjez5p60upoSDVh4+q4R5lKYyRz3/b9B/iGagdyvT9MEOCv6SVJETPv1QMf7Ee7XGdCYolTsHqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgR1FBwJ8uYn20JnVfPa6u4omPipl9sLEmj2SGiQe/IbmjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/devential
+
+==================================================================
