@@ -7,7 +7,7 @@ tags: kindle
 
 As a little treat to myself, I bought an old Amazon Kindle Paperwhite to help me burn through my book backlog over the December break. Just days later, I find myself today installing Python on the device; not a sight you would see every day.
 
-![20161219_150132.jpg](https://s23.postimg.org/4gavjsg6z/20161219_150132.jpg)
+![20161219_150132.jpg](https://s23.postimg.cc/4gavjsg6z/20161219_150132.jpg)
 
 Here, Python was a required dependency for a few extensions that allow me to customize [fonts](http://www.mobileread.com/forums/showthread.php?t=219405) and [screensavers](http://www.mobileread.com/forums/showthread.php?t=195474), and I installed it just minutes after going through the motions of jailbreaking.
 
